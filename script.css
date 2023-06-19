@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+body,.main{
+    background-color: whitesmoke;
+    font-family: 'Arimo', sans-serif;
+}
+
+.card{
+   box-shadow: 0px 0px 10px 2px rgba(219,212,219,1);
+}
+.card-text,.visit{
+    font-size: 17px;
+}
+.check i{
+    padding: 25px;
+    color: white;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .check i{
+        padding: 20px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        align-items: center;
+    }
+    .fa-3x {
+        font-size: 1.5em !important;
+    }
+}
+.side{
+    /* color: rgb(0, 92, 153); */
+    /* color: rgb(0, 71, 179); */
+    color: #0088c0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.side:hover{
+    cursor: pointer;
+    color: #adc836;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #0088c0;
+    box-shadow: 5px 4px 20px -8px rgba(0,0,0,1);
+}
+#ham{
+    color: #0088c0;
+}
+.letter{
+    /* color: #90a7b7; */
+    color: black;
+    opacity: 80%;
+}
+.fa-check{
+    background-color: #4aa036;
+}
+.fa-tasks{
+    background-color: #0a759f;
+}
+.fa-money{
+    background-color: #0a759f;
+}
+.fa-inr{
+    background-color: #584dae;
+}
+#money{
+    background-color: #bb8f48;
+}
+.fa-users{
+    background-color: #ff8829;
+}
+.fa-suitcase-medical{
+    background-color: #a1be45;
+}
+.fa-flask{
+    background-color: #029fcb;
+}
+.off-logo{
+    width: 100px;
+    height: 50px;
+}
+.fa-circle{
+    font-size: 10px;
+    color: #37ce3b;
+}
+.hr{
+    color: gray !important;
+}
+@media only screen and (max-width: 765px) {
+    .hr{
+        display: none;
+    }
+}
